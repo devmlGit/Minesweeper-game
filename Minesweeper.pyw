@@ -304,9 +304,7 @@ class Game:
 
 # Change these parameters to change game difficulty/layout :##########
 #screen width, screen height, padding between cells, grid size (n in n*n grid), total number of mines
-
 args = (600,600,1, 10, 10)
-
 ######################################################################
 
 game = Game(*args, args)
